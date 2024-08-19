@@ -1,0 +1,50 @@
+.notification-card {
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  max-width: 1052px;
+  max-height: 128px;
+  padding: 18px 24px;
+  align-items: center;
+  gap: 56px;
+  flex-shrink: 0;
+  border-radius: 42px;
+  border: 3px solid #000;
+  background: var(--Beige-100, #FAFAF3);
+}
+
+.notification-content {
+  width: 776px;
+}
+
+.notification-content>p {
+  text-align: left;
+  margin: 0;
+  color: #000;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%;
+}
+
+@media (max-width: 640px) {
+
+  .notification-card {
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    max-width: 1052px;
+    /* height: 128px; */
+    padding: 9px 12px;
+    align-items: center;
+    gap: 24px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    border: 1px solid #000;
+    background: var(--Beige-100, #FAFAF3);
+  }
+
+  .notification-content>p {
+    font-size: 12px;
+  }
+}

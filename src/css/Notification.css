@@ -1,0 +1,40 @@
+.notification-cotainer {
+  display: flex;
+  max-width: 1160px;
+  height: 1410px;
+  flex-direction: column;
+  flex-shrink: 0;
+  background: var(--Beige-500, #9F8C76);
+  margin: auto;
+}
+
+.title {
+  /* border: 3px solid black; */
+  background: var(--Beige-100, #FAFAF3);
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+  margin: 0;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.notification-body {
+  display: flex;
+  height: 1311px;
+  padding: 42px 54px;
+  flex-direction: column;
+  gap: 42px;
+  flex-shrink: 0;
+  overflow-y: auto;
+  background: var(--Beige-300, #F5F5DC);
+}
+
+@media (max-width: 640px) {
+  .notification-body {
+    padding: 16px 24px;
+    gap: 12px;
+  }
+}

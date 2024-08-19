@@ -1,0 +1,23 @@
+.categories-card{ 
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  border-radius: 24px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.card-imag{
+  border-radius: 24px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+@media (max-width: 640px) {
+  .categories-card {
+    border-radius: 8px;
+  }
+  .card-imag{
+    border-radius: 8px;
+  }
+}

@@ -1,0 +1,43 @@
+import React from "react";
+import { Link } from "react-router-dom";
+import '../css/Content.css'
+import thumbsUpIcon from '../images/icon-thumbs-up.png';
+import saveIcon from '../images/icon-save.png';
+import shareIcon from '../images/icon-share-2.png';
+
+const Content = () => {
+  return (
+    <section className="content-section">
+      <div><h1 className="content-title">Lorem ipsum dolor sit amet consectetur. Nunc ultricies vitae eget vel.(title)</h1></div>
+      <div><h4 className="content-subtitle">Lorem ipsum dolor sit amet consectetur. Et nam varius faucibus at. (subtitle)</h4></div>
+      <div className="content-line">.</div>
+      <div className="content-feedback">
+        <img src={thumbsUpIcon} />
+        <img src={saveIcon} />
+        <img src={shareIcon} />
+      </div>
+      <div className="content-line">.</div>
+      <div>
+        <p className="content-content">
+          Lorem ipsum dolor sit amet consectetur. Urna blandit id placerat nec eleifend egestas. Malesuada sem dui et facilisi aliquam. Adipiscing mattis feugiat mauris venenatis. Sed in nibh arcu sit maecenas feugiat egestas aliquet odio. Quis nunc vel volutpat at eu. Ut vitae malesuada amet etiam vitae morbi non mi eget. Dictumst lectus quam porta dictum. Pellentesque sit urna tellus laoreet. Vestibulum lectus vulputate senectus varius. Pellentesque sed quis nullam at mauris lacus risus.
+          Cras diam integer duis mi amet. Euismod vivamus urna elementum eu risus risus morbi molestie. Non libero in erat ut nunc neque id. In aliquet posuere blandit quam ultrices vel quam. Turpis integer iaculis pulvinar lectus. Vitae leo commodo sit at felis penatibus leo. Habitasse arcu ultrices ullamcorper sagittis aliquet tortor id. Ullamcorper quam feugiat felis integer tortor quis aliquet egestas sed.
+          Lacus blandit non non nibh nec sed felis dictumst. In vulputate orci turpis id. Aliquam maecenas nulla elit et. Lectus pretium ultricies consequat mattis nulla id eleifend mi mi. Turpis ut ipsum bibendum quis. In pulvinar nulla accumsan molestie eleifend facilisi id gravida sem. A vulputate lacus sed id a lobortis pellentesque et orci. Amet ornare diam viverra pharetra senectus. Felis purus non ac tortor.
+          Bibendum adipiscing ultrices et cursus congue elit. Facilisi nullam accumsan non sed risus sed. Quam lorem tristique facilisi facilisis mauris in et donec id. Feugiat purus natoque in amet auctor faucibus consequat id turpis. Sapien ut diam semper sagittis. Et mattis ut faucibus curabitur aenean. Quam adipiscing sapien interdum aliquet sagittis in. Diam orci eget felis lorem. Id pretium fringilla nam lectus gravida. Amet commodo est in convallis. Nulla pulvinar vestibulum risus tincidunt vitae feugiat. In a suspendisse urna curabitur convallis et interdum ornare. Eleifend ac ullamcorper tortor turpis erat dui venenatis. Mi massa vitae tortor mi. Commodo arcu viverra vestibulum eleifend tortor.
+          Gravida eget augue est at et enim. Volutpat ultrices odio vulputate id. Vestibulum nisi fermentum amet elementum velit turpis vel. Habitasse adipiscing dolor purus neque non sit. Consequat orci aliquam pretium bibendum non tristique pellentesque morbi et. Ac lorem consectetur lacus turpis. Suspendisse tincidunt imperdiet sit amet amet. Dignissim in condimentum montes quis est. Sed vestibulum aliquet lacinia malesuada rhoncus id. Lacinia neque est mattis aliquam non porta viverra tellus donec. Tellus sem pharetra magna consequat. Congue arcu vitae id egestas ultrices. Turpis lacus aliquet tincidunt eget. Vitae faucibus in rhoncus nec sed pellentesque pellentesque nisl. Aliquam ultrices interdum vitae lacus semper pretium congue.
+          Eget tempor donec morbi elementum sed. Turpis vestibulum neque convallis nullam cursus elit rutrum etiam urna. Purus volutpat habitant blandit bibendum aliquet leo nulla tincidunt. Euismod consectetur elit id id. Ac libero mauris arcu a nibh sed eget maecenas. In lectus cum duis orci tempus. Facilisis ipsum tincidunt mauris id vel dignissim lacus gravida mi. Pretium felis id pulvinar at amet lacus.
+          A suspendisse aliquam nisi turpis mauris pretium rutrum. Ligula amet ornare lorem odio nibh quis enim dolor. Massa dictum ligula tristique turpis tortor mi. Sed eget non sed adipiscing euismod pretium elit ut. Mattis nunc faucibus rhoncus facilisis vel ridiculus ut blandit lobortis. Amet netus felis eu nisl enim duis commodo amet eget. Nulla aliquet tempus netus adipiscing urna in sit vulputate hac.
+          Eu proin in id ac in vulputate mi congue faucibus. Sed integer dolor vulputate mauris bibendum. Nisl sed consequat purus nibh hac condimentum lobortis. Amet ut commodo eu tincidunt penatibus quis. Lorem sodales sit enim pharetra lorem. Non lorem purus purus natoque interdum tortor aenean et ipsum.
+          Id in fringilla blandit facilisis mi lectus non purus. Amet lorem integer tempus pretium in molestie cras nunc et. Urna dui et morbi quis interdum. Rhoncus mattis amet convallis lectus faucibus turpis odio. Platea elit sed maecenas ac amet nulla duis. Dignissim tristique proin vitae fermentum adipiscing auctor scelerisque enim.
+          Nibh senectus purus mi scelerisque aenean habitant mauris augue. Lorem lectus dolor egestas arcu pellentesque non vitae. Felis sit placerat bibendum adipiscing accumsan nulla fringilla morbi. Scelerisque fermentum at nullam congue. Nullam nisl egestas facilisi eu sit. Vitae nisi cras erat donec morbi tincidunt justo. Ut nibh porta dictum at. Amet sed sagittis metus porttitor nisl. Diam integer consequat phasellus pellentesque faucibus sit ultrices ipsum feugiat. In leo augue aliquam in condimentum.
+          Donec euismod pellentesque lectus nisi arcu tortor ultrices. Risus enim placerat orci suscipit risus molestie varius aliquam. Lobortis dui tincidunt ultricies fermentum nibh. Viverra donec bibendum at donec. Dignissim viverra nunc etiam aliquet bibendum vel dignissim nisl. Massa aenean at sem nibh maecenas ullamcorper eget gravida mattis. Diam eros tempor sit amet ac. Habitasse rutrum aliquet metus at in in auctor cursus facilisis. Vulputate in rhoncus scelerisque consectetur ac hendrerit pellentesque. Venenatis quam venenatis nisi metus porta. Ac lectus massa dui volutpat nam volutpat.
+          Ut tortor leo lectus urna ut at. Amet sed augue aliquet non habitant tristique. Mollis in adipiscing mi egestas sed amet. Facilisi eu amet sed gravida arcu tincidunt. Magna sapien quis pellentesque morbi id malesuada risus justo velit. In mauris mattis et risus quis viverra id ac. Purus nulla ultrices vestibulum facilisi hendrerit. Vitae imperdiet luctus sit adipiscing ultrices sapien. Ornare ut lacus id luctus posuere eget. Volutpat pharetra quis ligula pulvinar sapien dictumst velit accumsan. Eu urna ultricies maecenas sagittis eu. Quam elit magnis velit nibh tristique fermentum. Habitant maecenas nulla pretium urna ac aliquam.
+          Interdum massa morbi sit risus faucibus mauris. In ac ullamcorper enim sodales nec fringilla dignissim eros blandit. Ipsum eu pharetra orci ac sollicitudin pretium. Fusce tristique nulla pellentesque justo faucibus risus fusce lobortis. Pretium quis rhoncus eget amet quisque. Consectetur volutpat adipiscing egestas vulputate sed lorem. Volutpat in sed vulputate sit volutpat nunc quam nunc. Enim et tortor urna varius. Tellus placerat auctor mi mattis. Id accumsan sagittis massa vehicula sed. Feugiat lectus nisl bibendum quam dictum sed gravida tellus. Sit netus placerat tempor risus quam. Congue vitae elit amet quis et. Amet nullam odio volutpat in id eu. Dictumst adipiscing posuere sed orci quam massa quisque.
+          Sit nec enim aliquet eu volutpat scelerisque interdum. Tristique pretium quisque platea et in iaculis tempor augue ultrices. Tempus sed nisl tristique nibh congue vitae. Id risus at nisl orci congue ornare. Purus libero a tincidunt consectetur pretium hendrerit porttitor.
+          Tincidunt tellus vel aliquet arcu. Aliquam quis amet et in. Laoreet ornare odio tellus turpis eu pellentesque dignissim enim ornare. Proin lectus consequat pharetra sollicitudin nisl. Lorem elementum venenatis imperdiet sit porta iaculis eu quis odio. Eu sapien suscipit tristique feugiat ultricies mi magna penatibus viverra. Ultrices etiam sit nisi mauris tellus diam tellus. Ultrices dignissim vitae nunc facilisis pellentesque cras. Lorem laoreet vitae sapien vitae at. Luctus ipsum posuere in sit. Est cras sed tempor tristique varius leo libero tristique eu.
+        </p>
+      </div>
+    </section>
+  )
+};
+
+export default Content;

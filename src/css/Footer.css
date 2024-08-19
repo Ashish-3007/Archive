@@ -1,0 +1,170 @@
+/* .container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.container-element{
+  text-align: center;
+} */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.footer {
+  background-color: #f5f5dc;
+  padding: 24px 0px 0px 0px;
+  position: relative;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+}
+
+.about-us,
+.links,
+.connect {
+  flex: 1;
+  margin: 0 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-us>h2 {
+  color: #000;
+  text-align: center;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 64px;
+  margin-bottom: 24px;
+}
+
+.about-us>p {
+  color: #000;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%;
+}
+
+.links {
+  gap: 1em;
+}
+
+.links>h2 {
+  color: #000;
+  text-align: center;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 64px;
+  margin-bottom: 24px;
+}
+
+.link-container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 1rem;
+}
+
+.link-button {
+  margin: auto;
+  display: block;
+  border-radius: 18px;
+  border: 1px solid #141517;
+  background: var(--Green-300, #00A86B);
+  padding: 12px 24px;
+  justify-content: center;
+  align-items: center;
+}
+
+.link-button>h3 {
+  margin: 0;
+}
+
+h3 {
+  color: var(--neutrals-500, #141517);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%;
+  margin: 0px;
+}
+
+.link-button:hover {
+  background-color: #006400;
+}
+
+.connect>p {
+  color: #000;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%;
+  margin-bottom: 24px;
+}
+
+.connect>h2 {
+  color: #000;
+  text-align: center;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 64px;
+  margin-bottom: 24px;
+}
+
+.social-icons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+.social-icons > a{
+  justify-self: center;
+}
+
+.footer-bottom {
+  text-align: center;
+  background-color: #2f4f4f;
+  color: white;
+  padding: 24px 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-bottom p {
+  color: var(--Beige-300, #F5F5DC);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%;
+  margin: 0;
+}
+
+.img{
+  width: 48px;
+  height: 48px;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-us,
+  .links,
+  .connect {
+    margin: 10px 0;
+  }
+
+  .social-icons a {
+    display: inline-block;
+    margin: 5px;
+  }
+}
